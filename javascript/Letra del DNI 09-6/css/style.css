@@ -1,0 +1,63 @@
+h1{
+    color: rgb(149,90,90);
+    text-align: center;
+}
+.contenedor{
+    margin: auto;
+    text-align: center;
+}
+#imgDni, #div1{
+    width: 20%;
+    margin: auto;
+
+}
+#calcular{
+    height: 40px;
+    width: 70px;
+    margin: auto;
+    cursor: pointer; 
+    color: white; 
+    background-color: rgb(255, 0, 0); 
+    border: solid; 
+    
+}
+#calcular:hover{
+    background-color: blue;
+}
+#div1{
+    /* Pone centrado input y boton */
+    display: flex;
+    align-items: center;
+    
+}
+#msnError{
+    color: red;
+    font-style: italic;
+}
+.divcentrado{
+    width: 70%;
+    padding: 20px 0;
+    margin: auto; 
+    background-color:#3b3939;
+}
+.menu{
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+.menu li a:hover{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: blueviolet;
+}
